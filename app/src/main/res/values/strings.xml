@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ostoslista</string>
+    <string name="title_activity_main">Ostoslista</string>
+    <string name="add_new_task_dialog_title">Lisää</string>
+    <string name="save">Tallenna</string>
+    <string name="name">Nimike</string>
+    <string name="cancel_window">Peruuta</string>
+
+
+</resources>

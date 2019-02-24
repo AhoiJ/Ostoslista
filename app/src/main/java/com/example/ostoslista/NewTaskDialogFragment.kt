@@ -44,16 +44,16 @@ class NewTaskDialogFragment : DialogFragment() {  // 1
 
 
         builder.setView(dialogView)
-            .setPositiveButton(R.string.save, { dialog, id ->
+            .setPositiveButton(R.string.save) { dialog, id ->
                 newTaskDialogListener?.onDialogPositiveClick(
                     this,
                     task?.text.toString()
                 );
-            })
-            .setNegativeButton(R.string.cancel_window, { dialog,
+            }
+            .setNegativeButton(R.string.cancel_window) { dialog,
                                                           id ->
                 newTaskDialogListener?.onDialogNegativeClick(this)
-            })
+            }
         return builder.create()
     }
 
